@@ -1,7 +1,7 @@
 export default function Hero(){
     return( 
         
-        <div className="flex flex-col justify-center items-center bg-[#1B1D1F] font-sans py-[120px] gap-2 px-14 mt-[-35%] max-w-[80%] rounded-[10px] ">
+        <div className=" absolute  -top-10 flex flex-col justify-center items-center bg-[#1B1D1F] font-sans  gap-2  max-w-[34rem] py-20 rounded-[10px] ">
              <div className="flex flex-col  max-w-[50%] justify-center items-center gap-2">
             <h1 className=" text-[#FEF7EE] text-[32px] font-bold">Our Collection</h1>
            
