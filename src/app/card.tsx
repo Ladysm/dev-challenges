@@ -1,9 +1,16 @@
 import React from "react"
 import Image from "next/image"
-export default function card({img}:{ img:string }){
+interface CardProps {
+    img: string;
+    width: number;
+    height: number;
+    alt: string
+}
+const Card = ({ img, width, height,alt }: CardProps) => {
     return(
         <div>
- <Image src={img} alt="Card Image" />
+<img src={img} alt={alt} width={width} height={height} />
         </div>
     )
 }
+export default Card

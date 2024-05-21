@@ -1,3 +1,4 @@
+import Products from "./utils/products"
 export default function Hero(){
     return( 
         
@@ -11,6 +12,7 @@ export default function Hero(){
     <button className="bg-[#6F757C] py-2 px-2 font-semibold rounded-md">All Products</button>
     <button>Available Now</button>
 </section>
+<Products/>
         </div>
         
     )
